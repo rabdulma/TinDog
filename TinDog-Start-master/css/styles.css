@@ -1,0 +1,204 @@
+body
+{
+    font-family: 'Montserrat';
+}
+
+h1,h2,h3,p
+{
+    font-family: 'Montserrat';
+}
+
+h2
+{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+h3
+{
+   font-size: 1.5rem;
+   font-weight: 600;
+}
+
+p
+{
+   font-size: 1rem;
+   font-weight: 600;
+}
+
+#title
+{
+    background-color: #FF4C68;
+    color: white;
+}
+
+#features
+{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+#testimonials
+{
+    padding: 3% 15%;
+    text-align: center;
+    background-color:#EF8172;
+    color: white;
+}
+
+#press
+{
+    background-color:#EF8172;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#pricing
+{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: white;
+}
+
+#cta
+{
+    background-color: #FF4C68;
+    color: white;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+#footer
+{
+    text-align: center;
+    padding: 7% 15%;
+    background-color: white;
+}
+
+.heading
+{
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.container-fluid
+{
+    padding: 2% 4% 2% 4%;
+}
+
+.child_container
+{
+    /*padding: 3% 5%;*/
+    padding: 2% 4% 2% 4%;
+}
+
+.navbar-brand
+{
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.nav-item
+{
+    padding: 0px 10px;
+}
+
+.nav-link
+{
+    font-size: 1.2rem;
+}
+
+.button-spacing
+{
+    padding-top: 70px;
+}
+
+.title-image
+{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+.image-container
+{
+    margin-left: 80px;
+}
+
+.feature-box
+{
+    text-align: center;
+    padding: 3%;
+}
+
+.icon 
+{
+    color: #EF8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover
+{
+    color: #FF4C68;
+}
+
+.testimonial-image
+{
+    width: 30%;
+    border-radius: 100%;
+    margin-right: 40px;
+}
+
+.logo
+{
+    width: 20%;
+    padding: 0 30px 0 30px;
+}
+
+.carousel-item
+{
+    padding: 7% 15%;
+}
+
+.pricing-col
+{
+    padding: 2% 3%;
+}
+
+.cta-title
+{
+    padding: 7% 15%;
+    font-size: 2.5rem;
+}
+
+.social-media-icon
+{
+    padding: 2% 2%;
+}
+
+.download-button
+{
+    margin: 2% 2%;
+}
+
+
+@media (max-width: 992px)
+{
+    #title
+    {
+        text-align: center;
+    }
+    
+    .title-image
+    {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
